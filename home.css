@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #067BC2;
+}
+.logo{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.logo p {
+    font: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.nav {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 14px;
+
+}
+@media only screen and (max-width: 560px){
+    .container {
+        background-color: red;
+    }
+}
