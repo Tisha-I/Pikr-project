@@ -31,8 +31,8 @@ nav a {
     font-size: 14px;
 
 }
-@media only screen and (max-width: 560px){
+/* @media only screen and (max-width: 560px){
     .container {
         background-color: red;
     }
-}
+} */
